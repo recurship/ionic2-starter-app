@@ -1,0 +1,29 @@
+<!--
+  Generated template for the SignupConfirmPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Confirmation</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <p>Before we get started, we have sent you an email to verify your identity.</p>
+  <p>Enter the passcode given in the email:</p>
+  <ion-list>
+    <ion-item>
+      <ion-label fixed>Passcode</ion-label>
+      <ion-input type="text" value="" placeholder="XXXXXX"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <button block clear (click)="resendLink()">Resend email</button>
+
+  <button block default (click)="confirmPasscode()">Continue</button>
+</ion-content>
