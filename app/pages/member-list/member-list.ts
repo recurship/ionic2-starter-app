@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-
+import {LoginPage} from '../login/login';
 /*
   Generated class for the MemberListPage page.
 
@@ -13,7 +13,11 @@ import { NavController } from 'ionic-angular';
 export class MemberListPage {
 
   constructor(private navCtrl: NavController) {
-
+    // Incase you want to reset the app after it goes into the background.
+    // document.addEventListener('resume', () => {
+    //   console.log('Brought back to life!');
+    //   window.location.reload();         
+    // });
   }
 
 }

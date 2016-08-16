@@ -13,7 +13,7 @@ import {HomePage} from './pages/home/home';
     <ion-content>
       <ion-list>
         <button ion-item>
-          Mock vote
+          Item 1
         </button>
         <button ion-item>
           About us
@@ -39,6 +39,7 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       StatusBar.styleDefault();
     });
+
   }
 }
 
