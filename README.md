@@ -15,3 +15,8 @@ ionic serve --lab
 
 ```
 
+### TODO
+
+- [ ] Add about page
+- [ ] Configure Firebase library
+- [ ] Configure User login and basic data fetching (via Firebase)
